@@ -1,3 +1,4 @@
+// Life days calculator to this today
 package main
 
 import (
