@@ -18,11 +18,41 @@ func main() {
 
 func imc_total(kg, meterUnit float64) string {
 	imc := kg / (meterUnit * meterUnit)
+
 	if imc >= 18.5 && imc <= 25 {
 		return "Congratulations, you are at your ideal Weight :)"
 
+	}
+
+	if imc < 17 {
+		return "You are Very Underweight :( "
+
+	}
+
+	if imc >= 17 && imc <= 18.5 {
+		return "You're a little Underweight :/ "
+	}
+
+	if imc > 25 && imc <= 30 {
+		return "You are a little Overweight :/ "
+
+	}
+
+	if imc > 30 && imc <= 35 {
+		return "It's in obesity :("
+
+	}
+
+	if imc > 35 && imc <= 40 {
+		return "It is in severe Obesity :'("
+
+	}
+
+	if imc > 40 {
+		return "Morbid Obesity!!!"
+
 	} else {
-		return "You are not at your ideal Weight :("
+		return "..."
 	}
 
 }
