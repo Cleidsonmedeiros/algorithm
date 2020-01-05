@@ -13,7 +13,7 @@ func main() {
 	if number > 1000 {
 		fmt.Println("This number is too large, can crash your computer")
 	} else {
-		fmt.Println("From 0 to", number, "jumping from", jump, "Numbers, Are these numbers:")
+		fmt.Println("From 0 to", number, "Jumping from", jump, "Numbers, Are these numbers:")
 		counter(number, jump)
 
 	}
