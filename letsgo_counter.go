@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("Want me to count how much? ")
 	fmt.Scanln(&number)
 	fmt.Println("Now enter the jump to Count ")
-	fmt.Scanln(&jump)
+	fmt.Scanln(&jump) // jumping number "important"
 
 	if number > 1000 {
 		fmt.Println("This number is too large, can crash your computer")
